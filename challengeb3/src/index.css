@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  position: relative;
+  color: #5c5f60;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.conteudo {
+  display: flex;
+  padding: auto;
+  margin-top: 5%;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
+}
