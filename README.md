@@ -1,1 +1,1 @@
-# challengeb3
+The “Challenge” is a 1-year project carried out by FIAP students in partnership with large companies. The current project consists of developing a website centered around “IPO” for the São Paulo Stock Exchange (B3). This project was initially built using simple HTML, CSS and JavaScript and later rebuilt in React.
