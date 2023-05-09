@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 // import React, {useState} from 'react';
+import { FaRegUserCircle } from 'react-icons/fa'
 import './Header.css';
 
 function Header() {
@@ -11,12 +12,10 @@ function Header() {
                     <Link to="/"><img src="/images/b3logo.png" alt="Logo B3" width="40px" /></Link>
                 </div>
                 <div className="button-container">
-                    <button className="button-navbar" id="produtos-servicos">Produtos e Serviços</button>
-                    <button className="button-navbar" id="market-data">Market data e Índices</button>
-                    <button className="button-navbar" id="solucoes">Soluções</button>
-                    <button className="button-navbar" id="regulacao">Regulação</button>
-                    <button className="button-navbar" id="b3-navbar">B3</button>
-                    <button className="button-navbar" id="mapa-navbar"><Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>Mapa do Site</Link></button>
+                    <button className="button-navbar" id="simulacao-nav"><Link to='/Simulador' style={{ textDecoration: 'none', color: 'inherit' }}>Simulação</Link></button>
+                    <button className="button-navbar" id="documentacao-nav"><Link to='/Documentos' style={{ textDecoration: 'none', color: 'inherit' }}>Documentação de processos</Link></button>
+                    <button className="button-navbar" id="informacoes-nav"><Link to='Informacao' style={{ textDecoration: 'none', color: 'inherit' }}>Informações gerais</Link></button>
+                    <button className="button-navbar" id="login-nav"><FaRegUserCircle/></button>
                     {/* <div className="dropdown-mapa">
                         <ul>
                             <li>Simulação</li>
