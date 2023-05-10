@@ -14,8 +14,8 @@ function Header() {
                 <div className="button-container">
                     <button className="button-navbar" id="simulacao-nav"><Link to='/Simulador' style={{ textDecoration: 'none', color: 'inherit' }}>Simulação</Link></button>
                     <button className="button-navbar" id="documentacao-nav"><Link to='/Documentos' style={{ textDecoration: 'none', color: 'inherit' }}>Documentação de processos</Link></button>
-                    <button className="button-navbar" id="informacoes-nav"><Link to='Informacao' style={{ textDecoration: 'none', color: 'inherit' }}>Informações gerais</Link></button>
-                    <button className="button-navbar" id="login-nav"><FaRegUserCircle/></button>
+                    <button className="button-navbar" id="informacoes-nav"><Link to='/Informacao' style={{ textDecoration: 'none', color: 'inherit' }}>Informações gerais</Link></button>
+                    <button className="button-navbar" id="login-nav" style={{ fontSize: '1.5rem' }}><Link to='/Login' style={{ textDecoration: 'none', color: 'inherit' }}><FaRegUserCircle/></Link></button>
                     {/* <div className="dropdown-mapa">
                         <ul>
                             <li>Simulação</li>

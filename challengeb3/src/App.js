@@ -6,6 +6,7 @@ import Home from "./paginas/Home";
 import Simulador from "./paginas/Simulador";
 import Documentos from "./paginas/Documentos";
 import Informacao from "./paginas/Informacao";
+import Login from "./paginas/Login";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/Simulador' element={<Simulador/>}/>
         <Route path='/Documentos' element={<Documentos/>}/>
         <Route path='/Informacao' element={<Informacao/>}/>
+        <Route path='/Login' element={<Login/>}/>
       </Routes>
       <Footer/>
     </>

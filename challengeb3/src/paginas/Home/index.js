@@ -11,7 +11,7 @@ function Home() {
             <h3>Tudo o que você precisa saber sobre o mercado de ações em um lugar só</h3>
         </div>
 
-        <div className="acesso-index">
+        {/* <div className="acesso-index">
             <ul>
                 <li id="acesso-rapido"><i>Acesso rápido</i></li>
                 <hr/>
@@ -19,7 +19,7 @@ function Home() {
                 <li id="acesso-documentacao"><Link to='/Documentos' style={{ textDecoration: 'none', color: 'inherit' }}>Documentação de processos</Link></li>
                 <li id="acesso-informacoes"><Link to='Informacao' style={{ textDecoration: 'none', color: 'inherit' }}>Informações gerais</Link></li>
             </ul>
-        </div>
+        </div> */}
     </div>
     )
 }
