@@ -23,7 +23,7 @@
 
 .button-conta:hover {
     transition: 0.4s;
-    background-color: lightblue;
+    background-color: rgb(234, 250, 255);
     border-radius: 10px;
 }
 

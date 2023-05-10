@@ -7,6 +7,7 @@ import Simulador from "./paginas/Simulador";
 import Documentos from "./paginas/Documentos";
 import Informacao from "./paginas/Informacao";
 import Login from "./paginas/Login";
+import RecuperarSenha from "./paginas/RecuperarSenha";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/Documentos' element={<Documentos/>}/>
         <Route path='/Informacao' element={<Informacao/>}/>
         <Route path='/Login' element={<Login/>}/>
+        <Route path='/RecuperarSenha' element={<RecuperarSenha/>}/>
       </Routes>
       <Footer/>
     </>
