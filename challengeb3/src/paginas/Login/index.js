@@ -11,7 +11,7 @@ function Login() {
                     <input className='input-conta' type="password" name="senha" id="senha" placeholder="Senha" /><br />
                     <button className="button-conta" type="submit" id="login">Login</button><br /><br />
                     <button className="button-conta" id="esqueceu-senha"><Link to="/RecuperarSenha" style={{ textDecoration: 'none', color: 'inherit' }}>Esqueceu sua senha?</Link></button><br />
-                    <button className="button-conta" id="criar-conta">Crie sua conta.</button>
+                    <button className="button-conta" id="criar-conta"><Link to="/Cadastro" style={{ textDecoration: 'none', color: 'inherit' }}>Crie sua conta.</Link></button>
                 </form>
             </div>
         </div>
