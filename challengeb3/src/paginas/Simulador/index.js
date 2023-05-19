@@ -30,14 +30,17 @@ function Simulador() {
         <div className="conteudo">
             <div className="conteudo-simulador">
 
-                <h1>Lista Produtos</h1>
-                    <table>
+                <h2>Lista de Empresas</h2>
+                    <table className='tabela-simulador'>
                         <thead>
                             <tr>
-                                <th>Título</th>
-                                <th>Preço</th>
-                                <th>Quantidade</th>
-                                <th></th>
+                                <th>Nome</th>
+                                <th>Setor</th>
+                                <th>Ano de abertura</th>
+                                <th>1º Trimestre</th>
+                                <th>2º Trimestre</th>
+                                <th>3º Trimestre</th>
+                                <th>4º Trimestre</th>
                             </tr>
                         </thead>
                         <tbody>
