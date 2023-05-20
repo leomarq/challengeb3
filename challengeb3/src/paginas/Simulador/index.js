@@ -30,7 +30,7 @@ function Simulador() {
         <div className="conteudo">
             <div className="conteudo-simulador">
 
-                <h2>Lista de Empresas</h2>
+                <h2>Empresas e Valores das Ações</h2>
                     <table className='tabela-simulador'>
                         <thead>
                             <tr>
@@ -58,10 +58,6 @@ function Simulador() {
                         </tbody>
                     </table>
 
-                {/* <Routes>
-                <Route path='/services' element={<ApiEmpresas/>}/>
-                </Routes> */}
-
                 {/* <div className="input-simulador">
                     <select className="filtro-simulador" id='select-empresa'>
                         <option value="selecao-empresa">Selecione uma empresa</option>
@@ -73,7 +69,6 @@ function Simulador() {
                         <option value='88875412589783' id='empresa6'>Energize Agroenergia</option>
                         <option value='66047896124730' id='empresa7'>Farma Medicamentos</option>
                     </select> */}
-                {/* <button onClick={retornarEmpresa}>Pesquisar</button> */}
                 {/* </div>
                 <div className="lista-empresas">
                     Lista de empresas
