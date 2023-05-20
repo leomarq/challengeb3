@@ -49,34 +49,15 @@ function Simulador() {
                                     <td>{empresa.nomeEmpresa}</td>
                                     <td>{empresa.setor}</td>
                                     <td>{empresa.anoAbertura}</td>
-                                    <td>{empresa.primeiroTrimestre}</td>
-                                    <td>{empresa.segundoTrimestre}</td>
-                                    <td>{empresa.terceiroTrimestre}</td>
-                                    <td>{empresa.quartoTrimestre}</td>                    
+                                    <td>R$ {empresa.primeiroTrimestre}</td>
+                                    <td>R$ {empresa.segundoTrimestre}</td>
+                                    <td>R$ {empresa.terceiroTrimestre}</td>
+                                    <td>R$ {empresa.quartoTrimestre}</td>                    
                                 </tr>
                             ))}
                         </tbody>
                     </table>
-
-                {/* <div className="input-simulador">
-                    <select className="filtro-simulador" id='select-empresa'>
-                        <option value="selecao-empresa">Selecione uma empresa</option>
-                        <option value='12345678910121' id='empresa1'>Magazine</option>
-                        <option value='12345678910150' id='empresa2'>Mega Cel</option>
-                        <option value='12222879410536' id='empresa3'>PontoQuente</option>
-                        <option value='55574108936254' id='empresa4'>Pão Açucarado</option>
-                        <option value='96547893214775' id='empresa5'>Vigoroso Alimentos</option>
-                        <option value='88875412589783' id='empresa6'>Energize Agroenergia</option>
-                        <option value='66047896124730' id='empresa7'>Farma Medicamentos</option>
-                    </select> */}
-                {/* </div>
-                <div className="lista-empresas">
-                    Lista de empresas
-                </div> */}
             </div>
-            {/* <div class="resultado-simulador">
-                Resultado da simulação
-            </div> */}
         </div>
     )
 }
