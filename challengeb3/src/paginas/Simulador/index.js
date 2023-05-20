@@ -37,10 +37,10 @@ function Simulador() {
                                 <th>Nome</th>
                                 <th>Setor</th>
                                 <th>Ano de abertura</th>
-                                <th>1º Trimestre</th>
-                                <th>2º Trimestre</th>
-                                <th>3º Trimestre</th>
-                                <th>4º Trimestre</th>
+                                <th>1º Trimestre/2022</th>
+                                <th>2º Trimestre/2022</th>
+                                <th>3º Trimestre/2022</th>
+                                <th>4º Trimestre/2022</th>
                             </tr>
                         </thead>
                         <tbody>
